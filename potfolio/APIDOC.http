@@ -1,0 +1,41 @@
+#line command
+
+#api call structure
+
+#http_method_name url
+
+#accept|content_type:application/json
+
+#authorization:username,password
+
+#{request_body}
+
+
+
+# api call for portfolio about
+
+###
+GET http://127.0.0.1:8000/about/
+Accept: application/json
+
+#api call for education
+
+###
+GET http://127.0.0.1:8000/education/
+Accept: application/json
+
+#api call for listing projects
+###
+GET http://127.0.0.1:8000/project/
+Accept: application/json
+
+#api call fro listing skills
+###
+GET http://127.0.0.1:8000/skills/
+Accept: application/json
+
+#api call for listing certifications
+
+###
+GET http://127.0.0.1:8000/certifications/
+Accept: application/json
