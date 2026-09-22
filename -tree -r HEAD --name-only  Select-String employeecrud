@@ -1,0 +1,106 @@
+[33m2302359[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m django works committed
+ calculator/.gitignore                              |   1 [32m+[m
+ calculator/APIDOC.http                             |  67 [32m++++++++[m
+ calculator/calculator/__init__.py                  |   0
+ .../__pycache__/__init__.cpython-313.pyc           | Bin [31m0[m -> [32m175[m bytes
+ .../__pycache__/settings.cpython-313.pyc           | Bin [31m0[m -> [32m2564[m bytes
+ .../calculator/__pycache__/urls.cpython-313.pyc    | Bin [31m0[m -> [32m1824[m bytes
+ .../calculator/__pycache__/wsgi.cpython-313.pyc    | Bin [31m0[m -> [32m669[m bytes
+ calculator/calculator/asgi.py                      |  16 [32m++[m
+ calculator/calculator/settings.py                  | 128 [32m++++++++++++++[m
+ calculator/calculator/urls.py                      |  29 [32m++++[m
+ calculator/calculator/wsgi.py                      |  16 [32m++[m
+ calculator/db.sqlite3                              |   0
+ .../django_calculation_api_documentation.txt       | 170 [32m++++++++++++++++++[m
+ calculator/manage.py                               |  22 [32m+++[m
+ calculator/operation/__init__.py                   |   0
+ .../operation/__pycache__/__init__.cpython-313.pyc | Bin [31m0[m -> [32m174[m bytes
+ .../operation/__pycache__/admin.cpython-313.pyc    | Bin [31m0[m -> [32m218[m bytes
+ .../operation/__pycache__/apps.cpython-313.pyc     | Bin [31m0[m -> [32m483[m bytes
+ .../operation/__pycache__/models.cpython-313.pyc   | Bin [31m0[m -> [32m215[m bytes
+ .../operation/__pycache__/views.cpython-313.pyc    | Bin [31m0[m -> [32m5787[m bytes
+ calculator/operation/admin.py                      |   3 [32m+[m
+ calculator/operation/apps.py                       |   5 [32m+[m
+ calculator/operation/migrations/__init__.py        |   0
+ .../__pycache__/__init__.cpython-313.pyc           | Bin [31m0[m -> [32m185[m bytes
+ calculator/operation/models.py                     |   3 [32m+[m
+ calculator/operation/tests.py                      |   3 [32m+[m
+ calculator/operation/views.py                      | 163 [32m++++++++++++++++++[m
+ filimatography/APIDOC.http                         |   1 [32m+[m
+ filimatography/biography/__init__.py               |   0
+ .../biography/__pycache__/__init__.cpython-313.pyc | Bin [31m0[m -> [32m178[m bytes
+ .../biography/__pycache__/admin.cpython-313.pyc    | Bin [31m0[m -> [32m222[m bytes
+ .../biography/__pycache__/apps.cpython-313.pyc     | Bin [31m0[m -> [32m487[m bytes
+ .../biography/__pycache__/models.cpython-313.pyc   | Bin [31m0[m -> [32m219[m bytes
+ .../biography/__pycache__/views.cpython-313.pyc    | Bin [31m0[m -> [32m6008[m bytes
+ filimatography/biography/admin.py                  |   3 [32m+[m
+ filimatography/biography/apps.py                   |   5 [32m+[m
+ filimatography/biography/migrations/__init__.py    |   0
+ .../__pycache__/__init__.cpython-313.pyc           | Bin [31m0[m -> [32m189[m bytes
+ filimatography/biography/models.py                 |   3 [32m+[m
+ filimatography/biography/tests.py                  |   3 [32m+[m
+ filimatography/biography/views.py                  | 190 [32m+++++++++++++++++++++[m
+ filimatography/db.sqlite3                          |   0
+ filimatography/filimatography/__init__.py          |   0
+ .../__pycache__/__init__.cpython-313.pyc           | Bin [31m0[m -> [32m183[m bytes
+ .../__pycache__/settings.cpython-313.pyc           | Bin [31m0[m -> [32m2584[m bytes
+ .../__pycache__/urls.cpython-313.pyc               | Bin [31m0[m -> [32m2656[m bytes
+ .../__pycache__/wsgi.cpython-313.pyc               | Bin [31m0[m -> [32m685[m bytes
+ filimatography/filimatography/asgi.py              |  16 [32m++[m
+ filimatography/filimatography/settings.py          | 128 [32m++++++++++++++[m
+ filimatography/filimatography/urls.py              |  40 [32m+++++[m
+ filimatography/filimatography/wsgi.py              |  16 [32m++[m
+ filimatography/manage.py                           |  22 [32m+++[m
+ greetings/APIDOC.http                              |   9 [32m+[m
+ greetings/db.sqlite3                               |   0
+ greetings/greetings/__init__.py                    |   0
+ .../greetings/__pycache__/__init__.cpython-313.pyc | Bin [31m0[m -> [32m173[m bytes
+ .../greetings/__pycache__/settings.cpython-313.pyc | Bin [31m0[m -> [32m2556[m bytes
+ .../greetings/__pycache__/urls.cpython-313.pyc     | Bin [31m0[m -> [32m1576[m bytes
+ .../greetings/__pycache__/wsgi.cpython-313.pyc     | Bin [31m0[m -> [32m665[m bytes
+ greetings/greetings/asgi.py                        |  16 [32m++[m
+ greetings/greetings/settings.py                    | 128 [32m++++++++++++++[m
+ greetings/greetings/urls.py                        |  28 [32m+++[m
+ greetings/greetings/wsgi.py                        |  16 [32m++[m
+ greetings/manage.py                                |  22 [32m+++[m
+ greetings/my_app/__init__.py                       |   0
+ .../my_app/__pycache__/__init__.cpython-313.pyc    | Bin [31m0[m -> [32m170[m bytes
+ greetings/my_app/__pycache__/admin.cpython-313.pyc | Bin [31m0[m -> [32m214[m bytes
+ greetings/my_app/__pycache__/apps.cpython-313.pyc  | Bin [31m0[m -> [32m472[m bytes
+ .../my_app/__pycache__/models.cpython-313.pyc      | Bin [31m0[m -> [32m211[m bytes
+ greetings/my_app/__pycache__/views.cpython-313.pyc | Bin [31m0[m -> [32m2109[m bytes
+ greetings/my_app/admin.py                          |   3 [32m+[m
+ greetings/my_app/apps.py                           |   5 [32m+[m
+ greetings/my_app/migrations/__init__.py            |   0
+ .../__pycache__/__init__.cpython-313.pyc           | Bin [31m0[m -> [32m181[m bytes
+ greetings/my_app/models.py                         |   3 [32m+[m
+ greetings/my_app/tests.py                          |   3 [32m+[m
+ greetings/my_app/views.py                          |  40 [32m+++++[m
+ potfolio/.gitignore                                |   1 [32m+[m
+ potfolio/APIDOC.http                               |  41 [32m+++++[m
+ potfolio/API_PLAN.txt                              | 140 [32m+++++++++++++++[m
+ potfolio/db.sqlite3                                |   0
+ potfolio/manage.py                                 |  22 [32m+++[m
+ potfolio/my_app/__init__.py                        |   0
+ .../my_app/__pycache__/__init__.cpython-313.pyc    | Bin [31m0[m -> [32m169[m bytes
+ potfolio/my_app/__pycache__/admin.cpython-313.pyc  | Bin [31m0[m -> [32m213[m bytes
+ potfolio/my_app/__pycache__/apps.cpython-313.pyc   | Bin [31m0[m -> [32m471[m bytes
+ potfolio/my_app/__pycache__/models.cpython-313.pyc | Bin [31m0[m -> [32m210[m bytes
+ potfolio/my_app/__pycache__/views.cpython-313.pyc  | Bin [31m0[m -> [32m4161[m bytes
+ potfolio/my_app/admin.py                           |   3 [32m+[m
+ potfolio/my_app/apps.py                            |   5 [32m+[m
+ potfolio/my_app/migrations/__init__.py             |   0
+ .../__pycache__/__init__.cpython-313.pyc           | Bin [31m0[m -> [32m180[m bytes
+ potfolio/my_app/models.py                          |   3 [32m+[m
+ potfolio/my_app/tests.py                           |   3 [32m+[m
+ potfolio/my_app/views.py                           | 112 [32m++++++++++++[m
+ potfolio/potfolio/__init__.py                      |   0
+ .../potfolio/__pycache__/__init__.cpython-313.pyc  | Bin [31m0[m -> [32m171[m bytes
+ .../potfolio/__pycache__/settings.cpython-313.pyc  | Bin [31m0[m -> [32m2551[m bytes
+ potfolio/potfolio/__pycache__/urls.cpython-313.pyc | Bin [31m0[m -> [32m1573[m bytes
+ potfolio/potfolio/__pycache__/wsgi.cpython-313.pyc | Bin [31m0[m -> [32m661[m bytes
+ potfolio/potfolio/asgi.py                          |  16 [32m++[m
+ potfolio/potfolio/settings.py                      | 128 [32m++++++++++++++[m
+ potfolio/potfolio/urls.py                          |  27 [32m+++[m
+ potfolio/potfolio/wsgi.py                          |  16 [32m++[m
+ 104 files changed, 1843 insertions(+)
